@@ -28,7 +28,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pearlshop"
+    }
+  },
+  "defaultProject": "pearlshop",
+  "cli": {
+    "analytics": "4b779345-a1e4-4425-adf5-72e0cb899e24"
+  }
 }
